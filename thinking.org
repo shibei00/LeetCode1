@@ -1,0 +1,39 @@
+* Algorighm
+** Parentheses Related Problem
+   - stack
+     + Longest Valid Parentheses
+     + Valid Parentheses
+   - dynamic programming
+	 + Longest Valid Parentheses
+   - DFS
+	 + Generate Parentheses
+
+** Binary Search Tree
+
+* Math
+** Catalan Number
+   - LC241 Different Ways to Add Parentheses
+* C++
+** stack
+   - push
+   - empty
+   - top
+   - pop
+
+** string
+*** Initialization
+Construct string from the vector of chars
+Example:
+std::vector<char> v;
+std::string str(v.begin(),v.end());
+*** operator
+like vectors
+- push_back
+- pop_back
+- resize
+- atoi(s.c_str())
+- stoi(s)
+- to_string(i)
+
+*** optimization
+	Sometimes we can make the string a reference, which can get a 3x gain in speed.
